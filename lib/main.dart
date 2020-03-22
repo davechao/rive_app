@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:riveapp/home_page.dart';
+import 'package:riveapp/login_page.dart';
 
 void main() => runApp(App());
 
@@ -10,7 +10,7 @@ class App extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Rive App',
       theme: ThemeData(primarySwatch: Colors.blue),
-      home: HomePage(),
+      home: LoginPage(),
     );
   }
 }
